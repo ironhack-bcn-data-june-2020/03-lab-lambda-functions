@@ -350,7 +350,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 45,
+   "execution_count": 48,
    "metadata": {},
    "outputs": [
     {
@@ -362,14 +362,14 @@
     }
    ],
    "source": [
-    "list1 = ['Engineering', 'Computer Science', 'Political Science', 'Mathematics']\n",
-    "list2 = ['Lab', 'Homework', 'Essay', 'Module']\n",
+    "list6 = ['Engineering', 'Computer Science', 'Political Science', 'Mathematics']\n",
+    "list7 = ['Lab', 'Homework', 'Essay', 'Module']\n",
     "\n",
     "# Your code here:\n",
-    "list3= [ (a,b) for a,b in zip(list1, list2)]\n",
+    "list8= [ (a,b) for a,b in zip(list1, list2)]\n",
     "\n",
-    "list3.sort(key= lambda x : x[1])\n",
-    "print(list3)"
+    "list8.sort(key= lambda x : x[1])\n",
+    "print(list8)"
    ]
   },
   {
